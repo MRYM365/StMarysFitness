@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6bd28e1-7ad4-4045-8b73-43e8d6c111e4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_gui_add_member.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_gui_navigation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/main_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/main_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/member.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/member.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_member.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_payment.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_payment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_subscription.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_subscription.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +53,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.dashboard_controller.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main_gui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manage_member.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/myrez/PycharmProjects/Bite_and_Brew&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in subscription.py.executor": "Run",
+    "Python tests.Python tests in test_ attendance.py.executor": "Run",
+    "Python tests.Python tests in test_appointment.py.executor": "Run",
+    "Python tests.Python tests in test_dashboard.py.executor": "Run",
+    "Python tests.Python tests in test_gui_add_member.py.executor": "Run",
+    "Python tests.Python tests in test_gui_navigation.py.executor": "Run",
+    "Python tests.Python tests in test_member.py.executor": "Run",
+    "Python tests.Python tests in test_payment.py.executor": "Run",
+    "Python tests.Python tests in test_subscription.py.executor": "Run",
+    "Python tests.Python tests in test_workout_zone.py.executor": "Run",
+    "Python.dashboard_controller.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main_gui.executor": "Run",
+    "Python.manage_member.executor": "Run",
+    "Python.subscription.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/myrez/PycharmProjects/Bite_and_Brew",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +99,12 @@
       <option name="presentableId" value="Default" />
       <updated>1735293379991</updated>
       <workItem from="1735293390455" duration="30510000" />
-      <workItem from="1735419893821" duration="317000" />
+      <workItem from="1735419893821" duration="483000" />
+      <workItem from="1735655374486" duration="2000" />
+      <workItem from="1735772439485" duration="658000" />
+      <workItem from="1735901969018" duration="7822000" />
+      <workItem from="1736006069975" duration="1227000" />
+      <workItem from="1736189238634" duration="5216000" />
     </task>
     <servers />
   </component>
@@ -90,9 +112,11 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/StMarysFitness$subscription.coverage" NAME="subscription Coverage Results" MODIFIED="1736256919902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/StMarysFitness$main.coverage" NAME="main Coverage Results" MODIFIED="1735308412317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/StMarysFitness$dashboard_controller.coverage" NAME="dashboard_controller Coverage Results" MODIFIED="1735308409131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/controllers" />
     <SUITE FILE_PATH="coverage/StMarysFitness$manage_member.coverage" NAME="manage_member Coverage Results" MODIFIED="1735382944897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
-    <SUITE FILE_PATH="coverage/StMarysFitness$main_gui.coverage" NAME="main_gui Coverage Results" MODIFIED="1735419731969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
+    <SUITE FILE_PATH="coverage/StMarysFitness$main_gui.coverage" NAME="main_gui Coverage Results" MODIFIED="1736208974124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
+    <SUITE FILE_PATH="coverage/StMarysFitness$.coverage" NAME=" Coverage Results" MODIFIED="1736257609674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

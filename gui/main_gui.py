@@ -64,7 +64,6 @@ class FitnessManagementApp:
     # Manage Members Section
     def show_manage_members(self):
         self.clear_content()
-
         # Title
         label = tk.Label(self.content_frame, text="Manage Members", font=("Arial", 14, "bold"))
         label.pack(pady=10)
@@ -702,7 +701,7 @@ class FitnessManagementApp:
         # Attendant Dropdown
         tk.Label(self.content_frame, text="Attendant:").pack(anchor="w", padx=20)
         attendant_dropdown = ttk.Combobox(self.content_frame,
-                                          values=["John", "Jane", "Mike", "Anna"])  # Example attendants
+                                          values=["Dora", "Alice", "Ana", "Myre"])  # Example attendants
         attendant_dropdown.pack(fill="x", padx=20, pady=5)
 
         # Class Schedules

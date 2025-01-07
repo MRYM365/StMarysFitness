@@ -14,9 +14,11 @@ class Member:
         self.appointments = []
 
     def add_appointment(self, appointment):
+        """Add an appointment object."""
         self.appointments.append(appointment)
 
     def cancel_appointment(self, appointment_id):
+        """Cancel an appointment based on its ID."""
         self.appointments = [
             appointment for appointment in self.appointments
             if appointment.appointment_id != appointment_id
